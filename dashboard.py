@@ -9,7 +9,7 @@ import json
 import re
 import altair as alt
 
-# --- INIT OPENAI CLIENT ---
+# Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # --- PAGE CONFIG ---
@@ -18,14 +18,18 @@ st.set_page_config(page_title="Job Hunt Agent", page_icon="💼", layout="wide")
 # --- SIDEBAR CONFIG ---
 st.sidebar.header("🔍 Search Settings")
 
-# Resume upload
-uploaded_resume = st.sidebar.file_uploader("📄 Upload Resume (resume.txt)", type=["txt"])
+# Upload and save resume
+uploaded_resume = st.file_uploader("📄 Upload Resume (resume.txt)", type=["txt"])
+if uploaded_resume:
+    with open("resume.txt", "wb") as f:
+        f.write(uploaded_resume.read())
+    st.success("📄 Resume uploaded successfully!")
 
-# Job role and cities
 selected_role = st.sidebar.text_input("Job Role", value="Product Manager")
+
 selected_cities = st.sidebar.multiselect(
     "Choose Cities",
-    options=["Los Angeles", "New York", "San Francisco", "Seattle", "Austin", "Remote"],
+    options=["Los Angeles", "New York", "San Francisco", "Seattle", "Austin", "Denver", "Texas", "Remote"],
     default=["Los Angeles"]
 )
 
@@ -45,21 +49,16 @@ with st.sidebar:
 st.title("💼 Job Hunt Agent Dashboard")
 st.markdown("Use the sidebar to record voice, fetch jobs and explore matches below:")
 
-# --- FETCH JOBS ---
+# --- RUN SCRAPER WITH ROLE + CITIES ---
 if fetch_jobs:
-    if uploaded_resume is not None:
-        resume_text = uploaded_resume.read().decode("utf-8")
-        with open("resume.txt", "w") as f:
-            f.write(resume_text)
+    if not uploaded_resume:
+        st.error("❌ Please upload your resume before fetching jobs.")
     else:
-        st.error("Please upload a resume.txt file to proceed.")
-        st.stop()
-
-    with st.spinner("📡 Fetching and scoring jobs..."):
-        os.environ["JOB_ROLE"] = selected_role
-        os.environ["JOB_CITIES"] = json.dumps(selected_cities)
-        subprocess.run(["python3", "job_scraper.py"])
-    st.success("✅ Done! CSV updated.")
+        with st.spinner("📡 Fetching and scoring jobs..."):
+            os.environ["JOB_ROLE"] = selected_role
+            os.environ["JOB_CITIES"] = json.dumps(selected_cities)
+            subprocess.run(["python3", "job_scraper.py"])
+        st.success("✅ Done! CSV updated.")
 
 # --- LOAD JOBS ---
 if os.path.exists("jobs_scored.csv"):
@@ -129,14 +128,6 @@ if audio_file is not None:
         else:
             parsed_role = selected_role
             parsed_city = selected_cities[0]
-
-        if uploaded_resume is not None:
-            resume_text = uploaded_resume.read().decode("utf-8")
-            with open("resume.txt", "w") as f:
-                f.write(resume_text)
-        else:
-            st.error("Please upload a resume.txt file to proceed.")
-            st.stop()
 
         os.environ["JOB_ROLE"] = parsed_role
         os.environ["JOB_CITIES"] = json.dumps([parsed_city])
