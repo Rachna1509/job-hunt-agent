@@ -1,0 +1,8 @@
+openai
+streamlit
+pandas
+requests
+altair
+soundfile
+rich
+streamlit-webrtc
