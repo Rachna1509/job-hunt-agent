@@ -10,7 +10,8 @@ import re
 import altair as alt
 
 # Initialize OpenAI client
-client = OpenAI()
+import os
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Job Hunt Agent", page_icon="💼", layout="wide")
