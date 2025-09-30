@@ -1,0 +1,92 @@
+Rachna Singh
+Los Gatos, CA 95031
+6692529241 - rachna.singh15@hotmail.com
+Professional Summary
+Product Management professional with 7+ years of experience in Fintech and Digital
+Product lifecycle management, focusing on go-to-market strategy, customer adoption,
+and revenue growth. Skilled at translating business needs into processes that enable
+operational readiness and smooth product deployment, while working closely with
+sales, engineering, and operations teams to support successful launches. Experienced
+with SQL, R, Tableau and Python for analysis and reporting, with a strong foundation
+in documentation, forecasting, and process optimization to drive business performance.
+Work History
+04/2023 to 08/2024 07/2019 to 04/2023 Team Lead, Product Management
+One97 Communications Ltd.(Paytm) – New Delhi, India
+•
+Defined product requirements and authored BRDs/PRDs in collaboration with
+leading telecom clients across Asia, Middle East, and Africa, supporting handset-
+based digital services with ~600,000 daily server hits, ensuring alignment with
+customer journeys and compliance standards.
+•
+Partnered with sales and technical teams to deliver solution insights, resulting in
+improved product positioning and increased order revenue.
+•
+Delivered leadership reporting on launch readiness, KPIs, and post-launch
+outcomes to drive continuous optimization.
+•
+Optimized system APIs and workflows, reducing errors and increasing adoption
+rates across multiple portals.
+•
+Developed internal training materials and facilitated smooth knowledge transfer
+across teams.
+Senior Associate, Product Management
+One97 Communications Ltd.(Paytm) – New Delhi, India
+•
+Led project rollout of cloud-based IVR system during COVID-19, enabling
+telecom clients to reach 10K+ customers daily on single automated call.
+•
+Scoped and managed cross-functional launch plans across GTM, sales ops, and
+client operations, mitigating risks and ensuring on-time readiness.
+•
+Monitored and analyzed product performance metrics (WAP, IVR, USSD portals),
+generating reports for revenue tracking and process improvement.
+•
+Presented post-launch results to leadership, highlighting KPI performance, risks,
+and improvement areas for future rollouts.
+07/2017 to 07/2019 Associate, Product Management
+One97 Communications Ltd.(Paytm) – New Delhi, India
+Skills
+Education
+08/2025 Certifications
+Languages
+•
+•
+•
+Coordinated with cross-functional teams (Sales, QA, CRM, Engineering) to
+configure and test products, ensuring readiness for client deployment.
+Prepared MIS data reports to track performance and support revenue forecasting.•
+Led UAT and bug resolution efforts, ensuring smooth releases and minimal
+downtime.
+Created solution documentation and methods of procedure to support operations
+teams.
+Analytics & Reporting: SQL, R,
+• Product & Process Management:
+•
+Python, Tableau, MIS, ERD
+Agile & Scrum, A/B Testing, UAT,
+PDLC, SDLC, Technical Writing-
+BRD and PRD
+• Collaboration & Tools: JIRA,
+Customer Platforms & Support:
+•
+IVR, USSD, WAP portals, QA Support
+Confluence, MS Office 365, MS Visio,
+GitHub, Adobe Tools
+Presales & Business Support:
+•
+• Cloud & Technology: SaaS, APIs,
+Revenue forecasting, Sales Reporting,
+Cloud-based IVR Solutions, Telco and
+Proposal Documentation, Stakeholder
+Fintech Platforms
+Management
+Master of Science: Business Analytics
+California State Polytechnic University - Pomona, CA
+Master of Applied Management
+Dr. A.P.J. Abdul Kalam Technical University - India
+Bachelor of Applied Management
+Dr. A.P.J. Abdul Kalam Technical University - India
+•
+IBM Data Science Professional Certificate
+Agile Scrum Fundamentals Course & Certification•
+English
