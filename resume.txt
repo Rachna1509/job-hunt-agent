@@ -1,1 +1,115 @@
-test.txt
+Rachna Singh
+Los Angeles, CA 90189
+6692529241 - singh.rachna93@gmail.com
+Professional Summary
+Product and Analytics professional with 7+ years of experience leading cross-functional
+project execution, product delivery, and data-driven decision-making across Fintech
+and Telco. Adept at managing project lifecycles, stakeholder communication, and KPI
+reporting to drive operational excellence. Passionate about applying analytical thinking
+and emerging technologies to optimize business performance.
+Skills
+AI & Emerging Tech: Generative AI,
+•
+• Analytics & Reporting: SQL, R,
+Large Language Models (LLMs),
+Python, Tableau, MIS, ERD
+Streamlit, Conversational AI
+prototyping
+• Collaboration & Tools: JIRA,
+Product & Process Management:
+•
+Agile & Scrum, A/B Testing, UAT,
+Confluence, MS Visio, MS
+PDLC, SDLC, Technical Writing-
+Powerpoint, GitHub, Excel, Canva,
+BRD and PRD
+Office 365.
+Presales & Business Support: Sales
+•
+• Cloud & Technology: SaaS, APIs,
+Reporting, Proposal Documentation,
+Cloud-based IVR Solutions, IVR,
+Stakeholder Management
+USSD, OTT
+Education
+08/2025 Master of Science: Business Analytics
+California State Polytechnic University - Pomona, CA
+Master of Applied Management
+Dr. A.P.J. Abdul Kalam Technical University - India
+Bachelor of Applied Management
+Dr. A.P.J. Abdul Kalam Technical University - India
+Work History
+10/2025 to Current 04/2023 to 08/2024 Product Strategy & Operations Intern
+AC Tech, Inc – Irvine, CA
+•
+Support product and operational planning through data collection, analysis, and
+performance tracking to guide strategic initiatives.
+•
+Prepare analytical summaries and visual reports that inform business and product
+strategy decisions.
+•
+Observe internal processes and contribute insights to business improvement and
+operational efficiency discussions.
+Team Lead, Product Management
+One97 Communications Ltd.(Paytm) – New Delhi, India
+•
+Led cross-functional collaboration with telecom clients across Asia, the Middle
+East, and Africa to define end-to-end product requirements and author
+BRDs/PRDs, ensuring strategic alignment and delivery excellence for handset
+based digital services handling ~600K daily server hits.
+•Guided and mentored team members, aligning them with project goals and
+ensuring consistent delivery standards across multiple product initiatives.
+07/2019 to 04/2023 07/2017 to 07/2019 •
+Optimized system APIs and workflows, reducing errors and increasing adoption
+rates across multiple portals.
+•
+Organized status reviews, tracked risk and issue logs, and documented project
+insights for leadership visibility.
+Senior Associate, Product Management
+One97 Communications Ltd.(Paytm) – New Delhi, India
+•
+Led project rollout of cloud-based IVR system during COVID-19, enabling
+telecom clients to reach 10K+ customers daily on single automated call.
+•
+Scoped and managed cross-functional launch plans across GTM, sales ops, and
+client operations, mitigating risks and ensuring on-time readiness.
+•
+Monitored and analyzed product performance metrics (IVR, USSD, OTT portals)
+to track revenue and identify improvement areas, presenting post-launch KPI
+insights and recommendations to leadership.
+Associate, Product Management
+One97 Communications Ltd.(Paytm) – New Delhi, India
+•
+Coordinated with cross-functional teams (Sales, QA, CRM, Engineering) to
+configure and test products, ensuring readiness for client deployment.
+•
+Supported project delivery operations and documentation control for the V odafone
+Sakhi analytics rollout, tracking milestones, consolidating data reports, and
+ensuring on-time dashboard deployment during a 7-phase PAN-India launch.
+•
+Compiled MIS and performance reports to assist with business forecasting and
+operational analysis.
+•
+Led UAT and bug resolution efforts, ensuring smooth releases and minimal
+downtime.
+•
+Created solution documentation and methods of procedure to support operations
+teams.
+Relevant Project
+AI-Powered Career Insights Dashboard (Personal Project, 2025)
+• Designed and built an interactive career insights dashboard using large language
+models (LLMs) and Streamlit to interpret natural-language voice inputs and extract role
+and location preferences.
+• Applied Generative AI and NLP techniques to convert user queries into structured
+search parameters, enabling multi-platform job aggregation and scoring.
+• Integrated public APIs for real-time job search, leveraging prompt-based reasoning for
+relevance ranking and summarization.
+Certifications
+•
+IBM Data Science Professional Certificate
+Agile Scrum Fundamentals Course & Certification•
+Languages
+English
+Profiles
+LinkedIn
+Github
